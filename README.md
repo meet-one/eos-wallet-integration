@@ -1,2 +1,2 @@
-# eos-dapp-generator
-Decentralized application generator of EOSIO-based blockchains.
+# eos-dapp-template
+Decentralized application template of EOSIO-based blockchains.
