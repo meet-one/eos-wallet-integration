@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,shrink-to-fit=no,user-scalable=no,minimal-ui"
+          name="viewport">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="full-screen" content="yes">
+    <title>EOS Wallet Integration</title>
+</head>
+<link rel="stylesheet" href="/index.css" type="text/css"/>
+<body>
+<div class="content">
+    <div class='title'>EOS Wallet Integration</div>
+    <div class="center" id="login">
+        <button onclick="login();">Login</button>
+    </div>
+    <div class="center hide" id="userInfo">
+        <div class="userName" id="userName"></div>
+        <div class="resources">
+            <div class="item">
+                <div class="name">RAM</div>
+                <div class="value" id="ramUsage"></div>
+                <div class="progress">
+                    <span class="pointer" style="width:50%"></span>
+                </div>
+            </div>
+            <div class="item">
+                <div class="name">NET</div>
+                <div class="value" id="cpuUsage">50%</div>
+                <div class="progress">
+                    <span class="pointer" style="width:50%"></span>
+                </div>
+            </div>
+            <div class="item">
+                <div class="name">NET</div>
+                <div class="value" id="netUsage">50%</div>
+                <div class="progress">
+                    <span class="pointer" style="width:50%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='footer'>Made with ♥ by MEET.ONE</div>
+</div>
+</body>
+<script type="application/javascript" src="/lib/eosjs-16.0.9.js"></script>
+<script type="application/javascript" src="/lib/scatterjs-core.min.js"></script>
+<script type="application/javascript" src="/lib/scatterjs-plugin-eosjs.min.js"></script>
+<script type="application/javascript" src="/index.js"></script>
+</html>
